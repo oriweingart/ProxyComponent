@@ -1,0 +1,49 @@
+<!doctype html>
+<html ng-app="app">
+	<head>
+		<meta charset="utf-8">
+		<title>Proxy</title>
+		<!-- Some css -->
+		<style type="text/css">
+		  .p-b-50 {
+				padding-bottom: 50px;
+			}
+			.container {
+				padding: 200px 0;
+			}
+			.center {
+				text-align: center;
+			}
+			.blue {
+				color: blue;
+			}
+			.red {
+				color: red;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="center p-b-50">Full Data Binding Using Proxy</div>
+
+			<!-- First Component  -->
+			<div class="center p-b-50">
+					 Full Text Data Binding
+					 <div id="one">
+					 </div>
+					 <input type="text" oninput="obj.text=this.value"></input>
+			</div>
+
+			<!-- Second Component  -->
+			<div class="center p-b-50">
+			     Second Example : Even/Odd numbers
+					 <div id="two">
+					 </div>
+ 					 <button type="button" onclick="obj2.number++">+</button>
+					 <button type="button" onclick="obj2.number--">-</button>
+			</div>
+		</div>
+		<script src="ProxyComponent.js"></script>
+		<script src="app.client.js"></script>
+	</body>
+</html>

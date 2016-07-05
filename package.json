@@ -1,0 +1,13 @@
+{
+  "name"         : "ProxyComponent",
+  "version"      : "0.0.0",
+  "description"  : "Node + express to server ProxyComponent",
+  "main"         : "app.server.js",
+    "scripts"		 : {
+  	"start": "node server.js"
+  },
+  "author"       : "OriW",
+  "dependencies" : {
+    "express"         : "~4.6.1"
+  }
+}
