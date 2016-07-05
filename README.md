@@ -1,4 +1,4 @@
-# Experiential Framework for databinding using ES6 Pro
+# Experiential lib for databinding using ES6 Proxy
 
 ## Requirements
 
